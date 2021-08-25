@@ -17,5 +17,12 @@
       "@config/*": ["src/config/*"],
       "@core/*": ["src/core/*"]
     }
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    // "plop",
+    "logs",
+    "test"
+  ]
 }
